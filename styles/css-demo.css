@@ -1,0 +1,51 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: red;
+}
+
+.navbar-container .logo-wrapper {
+  margin-left: 25px;
+  height: 75%;
+  width: 110px;
+}
+
+.navbar-container .logo-wrapper img {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar-container .nav-links-wrapper {
+  margin-right: 5px;
+}
+
+.navbar-container .nav-links-wrapper a {
+  padding: 15px;
+}
+
+.navbar-container .center-of-navbar {
+  display: flex;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-container .center-of-navbar h1 {
+  color: white;
+}
+
+.hero-section .page-title {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-section .hero-image {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-section .hero-image img {
+  height: 500px;
+}
